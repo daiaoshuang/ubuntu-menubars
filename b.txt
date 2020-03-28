@@ -1,0 +1,11 @@
+七、还原compiz视窗参数
+
+ compiz是Ubuntu中高级窗口管理器，其中很多参数设置会从底层影响到桌面的显示。如果你曾经通过工具或其它软件不小心修改了这些参数，可能会导致显示界面混乱。
+ 打开终端输入命令sudo dconf reset -f /org/compiz/可以重设compiz的状态。
+谨慎使用！！使用前做好备份。
+
+————————————————
+
+版权声明：本文为CSDN博主「黄志千」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/davidhzq/java/article/details/102872710
